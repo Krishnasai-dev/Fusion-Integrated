@@ -34,6 +34,93 @@
       "scope_permissions": [],
       "system_permissions": []
     },
+    "elm": {
+      "grants": {
+        "dean": [
+          "elm.leave_request.apply",
+          "elm.leave_request.respond",
+          "elm.leave_request.sanction"
+        ],
+        "director": [
+          "elm.leave_request.apply",
+          "elm.leave_request.respond",
+          "elm.leave_request.sanction",
+          "elm.leave_request.self_sanction"
+        ],
+        "faculty": [
+          "elm.leave_request.apply",
+          "elm.leave_request.respond",
+          "elm.vacation_leave.apply"
+        ],
+        "hod": [
+          "elm.leave_request.apply",
+          "elm.leave_request.respond",
+          "elm.leave_request.review",
+          "elm.vacation_leave.apply"
+        ],
+        "leave_admin": [
+          "elm.leave_request.apply",
+          "elm.leave_request.respond",
+          "elm.leave_request.view"
+        ],
+        "registrar": [
+          "elm.leave_request.apply",
+          "elm.leave_request.process",
+          "elm.leave_request.respond",
+          "elm.leave_request.sanction"
+        ],
+        "staff": [
+          "elm.leave_request.apply",
+          "elm.leave_request.respond"
+        ],
+        "student": []
+      },
+      "module_grants": [
+        "dean",
+        "director",
+        "faculty",
+        "hod",
+        "leave_admin",
+        "registrar",
+        "staff"
+      ],
+      "permissions": [
+        {
+          "code": "elm.leave_request.apply",
+          "label": "Apply for and withdraw own leave"
+        },
+        {
+          "code": "elm.leave_request.respond",
+          "label": "Accept or decline a substitute nomination"
+        },
+        {
+          "code": "elm.leave_request.view",
+          "label": "View leave requests of others"
+        },
+        {
+          "code": "elm.leave_request.review",
+          "label": "Unit Head review of leave"
+        },
+        {
+          "code": "elm.leave_request.process",
+          "label": "Establishment routing of leave"
+        },
+        {
+          "code": "elm.leave_request.sanction",
+          "label": "Final sanction of leave"
+        },
+        {
+          "code": "elm.leave_request.self_sanction",
+          "label": "Director self-sanction path"
+        },
+        {
+          "code": "elm.vacation_leave.apply",
+          "label": "Faculty vacation leave entitlement"
+        }
+      ],
+      "scope_permissions": [],
+      "system_permissions": []
+    },
     "placement_cell": {
       "grants": {
         "Dean Academic": [
